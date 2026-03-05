@@ -1,6 +1,6 @@
 ---
 # --- Metadatos Básicos ---
-title: "Título del Trabajo Final"
+title: "Trabajo Estadistico"
 author:
    - Primer participante
    - Segundo participante
@@ -125,6 +125,11 @@ En esta sección se presentan las metodologías y/o test necesarios relacionados
 \section{Bases metódicas utilizadas en el trabajo de investigación}
 
 Desarrollo\
+
+```{r, echo=TRUE}
+df <- read_csv("dataset/video_games_sales.csv")
+```
+
 
 \subsection{Item 1}
 
